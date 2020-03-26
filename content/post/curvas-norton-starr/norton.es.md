@@ -56,7 +56,7 @@ Podemos transcribirlas a p5 así
 
 Genera la siguiente figura
 
-{{< image src="/img/curvas-norton-starr/norton-example1.png" alt="test 1" position="center" style="max-width:400px; padding-bottom:1rem" >}}
+{{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-example1.png" alt="test 1" position="center" style="max-width:400px; padding-bottom:1rem" >}}
 
 * *amp* es una variable para ampliar el dibujo y poder verlo, sino se ve un puñado de puntos que parece un sólo punto. 
 * Con *i* voy definiendo la distancia entre los puntos, por eso en el loop voy de 0 a TWO_PI más el intervalo entre puntos 
@@ -78,16 +78,16 @@ Dentro de *Beginshape* podemos agregarle líneas que apunten al centro
 ```
 Que genera
 
-{{< image src="/img/curvas-norton-starr/norton-example2.png" alt="test 1" position="center" style="max-width:400px" >}}
+{{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-example2.png" alt="test 1" position="center" style="max-width:400px" >}}
 
 Podés jugar mucho variando a, b y c, y por el comportamiento senoidal, es medio difícil de precedir la forma final; en cada prueba me sorprendían las figuras qu resultaban! ✨
 
 
-  {{< image src="/img/curvas-norton-starr/norton-ex4.png" style="max-width:250px; display:inline-block; padding:1rem" >}}
-  {{< image src="/img/curvas-norton-starr/norton-ex3.png" style="max-width:250px; display:inline-block ; padding:1rem" >}}
-  {{< image src="/img/curvas-norton-starr/norton-ex5.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
-  {{< image src="/img/curvas-norton-starr/norton-ex6.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
-  {{< image src="/img/curvas-norton-starr/norton-ex7.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
-  {{< image src="/img/curvas-norton-starr/norton-ex8.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex4.png" style="max-width:250px; display:inline-block; padding:1rem" >}}
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex3.png" style="max-width:250px; display:inline-block ; padding:1rem" >}}
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex5.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex6.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex7.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex8.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
 
 Espero que juegues con el código y los valores, si creaste algo lindo y/o bizarro [lo quiero ver!](https://twitter.com/Envido3) 🤩
