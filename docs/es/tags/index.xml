@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on NOTÆS</title>
-    <link>natali-pp.github.io/blog/es/tags/</link>
+    <link>https://natali-pp.github.io/blog/es/tags/</link>
     <description>Recent content in Tags on NOTÆS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="natali-pp.github.io/blog/es/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://natali-pp.github.io/blog/es/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>creations</title>
-      <link>natali-pp.github.io/blog/es/tags/creations/</link>
+      <link>https://natali-pp.github.io/blog/es/tags/creations/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>natali-pp.github.io/blog/es/tags/creations/</guid>
+      <guid>https://natali-pp.github.io/blog/es/tags/creations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>creative coding</title>
-      <link>natali-pp.github.io/blog/es/tags/creative-coding/</link>
+      <link>https://natali-pp.github.io/blog/es/tags/creative-coding/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>natali-pp.github.io/blog/es/tags/creative-coding/</guid>
+      <guid>https://natali-pp.github.io/blog/es/tags/creative-coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>geometria</title>
-      <link>natali-pp.github.io/blog/es/tags/geometria/</link>
+      <link>https://natali-pp.github.io/blog/es/tags/geometria/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>natali-pp.github.io/blog/es/tags/geometria/</guid>
+      <guid>https://natali-pp.github.io/blog/es/tags/geometria/</guid>
       <description></description>
     </item>
     
     <item>
       <title>javascript</title>
-      <link>natali-pp.github.io/blog/es/tags/javascript/</link>
+      <link>https://natali-pp.github.io/blog/es/tags/javascript/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>natali-pp.github.io/blog/es/tags/javascript/</guid>
+      <guid>https://natali-pp.github.io/blog/es/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Norton Starr</title>
-      <link>natali-pp.github.io/blog/es/tags/norton-starr/</link>
+      <link>https://natali-pp.github.io/blog/es/tags/norton-starr/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>natali-pp.github.io/blog/es/tags/norton-starr/</guid>
+      <guid>https://natali-pp.github.io/blog/es/tags/norton-starr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>p5</title>
-      <link>natali-pp.github.io/blog/es/tags/p5/</link>
+      <link>https://natali-pp.github.io/blog/es/tags/p5/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>natali-pp.github.io/blog/es/tags/p5/</guid>
+      <guid>https://natali-pp.github.io/blog/es/tags/p5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>processing</title>
-      <link>natali-pp.github.io/blog/es/tags/processing/</link>
+      <link>https://natali-pp.github.io/blog/es/tags/processing/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>natali-pp.github.io/blog/es/tags/processing/</guid>
+      <guid>https://natali-pp.github.io/blog/es/tags/processing/</guid>
       <description></description>
     </item>
     
