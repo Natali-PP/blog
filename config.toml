@@ -1,0 +1,109 @@
+baseurl = "https://natali-pp.github.io/blog"
+languageCode = "en-us"
+theme = ["terminal"]
+paginate = 4
+publishDir = "docs"
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "post"
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "pink"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 5
+
+  # show selector to switch language
+  showLanguageSelector = true
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+  # set all headings to their default size (depending on browser settings)
+  # it's set to `true` by default
+  # oneHeadingSize = false
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = "Natali PP"
+  site = "Envido3"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "NOTÆS"
+    subtitle = "My random blog"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "NOTÆS"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "twitter"
+        name = "Twitter"
+        weight = 2
+        url = "https://twitter.com/Envido3"
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/Natali-PP"
+      [[languages.en.menu.main]]
+        identifier = "instagram"
+        name = "Instagram"
+        url = "https://www.instagram.com/suculent.mula/"
+
+    [languages.es]
+    languageName = "Español"
+    title = "NOTÆS"
+    subtitle = "Mi blog random"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Mostrar más"
+    readMore = "Leer"
+    readOtherPosts = "Otros post"
+
+    [languages.es.params.logo]
+      logoText = "NOTÆS"
+      logoHomeLink = "/es"
+
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/es/about"
+        weight = 1
+      [[languages.es.menu.main]]
+        identifier = "twitter"
+        name = "Twitter"
+        url = "https://twitter.com/Envido3"
+        weight = 2
+      [[languages.es.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/Natali-PP"
+      [[languages.es.menu.main]]
+        identifier = "instagram"
+        name = "Instagram"
+        url = "https://www.instagram.com/suculent.mula/"
