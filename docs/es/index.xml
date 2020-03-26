@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NOTÆS</title>
-    <link>//natali-pp.github.io/blog/es/</link>
+    <link>natali-pp.github.io/blog/es/</link>
     <description>Recent content on NOTÆS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//natali-pp.github.io/blog/es/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="natali-pp.github.io/blog/es/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Curvas de Norton Starr en p5.js</title>
-      <link>//natali-pp.github.io/blog/es/post/curvas-norton-starr/norton/</link>
+      <link>natali-pp.github.io/blog/es/post/curvas-norton-starr/norton/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>//natali-pp.github.io/blog/es/post/curvas-norton-starr/norton/</guid>
+      <guid>natali-pp.github.io/blog/es/post/curvas-norton-starr/norton/</guid>
       <description>En un proyecto anterior estuve jugando con las rosas de Maurer, y buscando información en Wolfram MathWorld, vi en los relacionados otra figura que se parecían, pero no estaban las ecuaciones.
 Buscando Starr Rose, no encontré tanta información como con las rosas de Maurer, sólo las encontre como ejercicio para dibujar en libros de cálculo matemático.
 Ecuaciones Sean a, b, c
@@ -26,10 +26,10 @@ $$x=(2+ \frac{1}{2} \sin at) \cos ( t + \frac {\sin bt}{c})$$</description>
     
     <item>
       <title>About</title>
-      <link>//natali-pp.github.io/blog/es/about/</link>
+      <link>natali-pp.github.io/blog/es/about/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//natali-pp.github.io/blog/es/about/</guid>
+      <guid>natali-pp.github.io/blog/es/about/</guid>
       <description>Hola Me llamo Natalí Palacio Pastor &amp;amp;&amp;amp; la negra &amp;amp;&amp;amp; freedy &amp;amp;&amp;amp; Nati.
 Aquí hay cosas que hice, el proceso y lo que pensé que es interesante.
  ,.=,,==. ,,_ _ ,====, _ |I|`` || `|I `| |`I| || `==,|`` ^^ `` | HABIA UNA VEZ UN CASTILLO | `` ^^ ||_,===TT`==,,_ | |,==Y``Y==,,__| \L=_-`&#39; +J/` FIN DE LA HISTORIA \|=_ &#39; -=#J/..-|=_- =| |=_ -;-=&#39;`. .|=_- =|----T--, |=/\ -|=_-. .</description>

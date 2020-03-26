@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>creative coding on NOTÆS</title>
-    <link>//natali-pp.github.io/blog/es/tags/creative-coding/</link>
+    <link>natali-pp.github.io/blog/es/tags/creative-coding/</link>
     <description>Recent content in creative coding on NOTÆS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//natali-pp.github.io/blog/es/tags/creative-coding/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="natali-pp.github.io/blog/es/tags/creative-coding/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Curvas de Norton Starr en p5.js</title>
-      <link>//natali-pp.github.io/blog/es/post/curvas-norton-starr/norton/</link>
+      <link>natali-pp.github.io/blog/es/post/curvas-norton-starr/norton/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>//natali-pp.github.io/blog/es/post/curvas-norton-starr/norton/</guid>
+      <guid>natali-pp.github.io/blog/es/post/curvas-norton-starr/norton/</guid>
       <description>En un proyecto anterior estuve jugando con las rosas de Maurer, y buscando información en Wolfram MathWorld, vi en los relacionados otra figura que se parecían, pero no estaban las ecuaciones.
 Buscando Starr Rose, no encontré tanta información como con las rosas de Maurer, sólo las encontre como ejercicio para dibujar en libros de cálculo matemático.
 Ecuaciones Sean a, b, c

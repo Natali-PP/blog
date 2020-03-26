@@ -1,4 +1,4 @@
-baseurl = "//natali-pp.github.io/blog"
+baseurl = "natali-pp.github.io/blog/"
 languageCode = "en-us"
 theme = ["terminal"]
 paginate = 4
@@ -51,7 +51,7 @@ publishDir = "docs"
 
     [languages.en.params.logo]
       logoText = "NOTÆS"
-      logoHomeLink = "/"
+      logoHomeLink = "/blog"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -86,7 +86,7 @@ publishDir = "docs"
 
     [languages.es.params.logo]
       logoText = "NOTÆS"
-      logoHomeLink = "/es"
+      logoHomeLink = "/blog/es"
 
     [languages.es.menu]
       [[languages.es.menu.main]]
