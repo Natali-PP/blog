@@ -1,4 +1,4 @@
-baseurl = "https://natali-pp.github.io/blog"
+baseurl = "//natali-pp.github.io/blog"
 languageCode = "en-us"
 theme = ["terminal"]
 paginate = 4
