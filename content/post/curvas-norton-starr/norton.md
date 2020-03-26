@@ -80,16 +80,16 @@ Inside *Beginshape* we can add lines that point to the center
 ```
 That generates
 
-{{< image src="/img/curvas-norton-starr/norton-example2.png" alt="test 1" position="center" style="max-width:400px" >}}
+{{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-example2.png" alt="test 1" position="center" style="max-width:400px" >}}
 
 You can play a lot changing a, b and c, and because the sinodal behavior, it's kind of difficult to predict the final shape; with every test I was surprised by the final shapes! ✨
 
 
-  {{< image src="/img/curvas-norton-starr/norton-ex4.png" style="max-width:250px; display:inline-block; padding:1rem" >}}
-  {{< image src="/img/curvas-norton-starr/norton-ex3.png" style="max-width:250px; display:inline-block ; padding:1rem" >}}
-  {{< image src="/img/curvas-norton-starr/norton-ex5.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
-  {{< image src="/img/curvas-norton-starr/norton-ex6.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
-  {{< image src="/img/curvas-norton-starr/norton-ex7.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
-  {{< image src="/img/curvas-norton-starr/norton-ex8.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex4.png" style="max-width:250px; display:inline-block; padding:1rem" >}}
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex3.png" style="max-width:250px; display:inline-block ; padding:1rem" >}}
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex5.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex6.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex7.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
+  {{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-ex8.png"  style="max-width:250px; display:inline-block ; padding:1rem">}} 
 
 I hope you play with the code, if you created something cute and / or bizarre [I want to see it!](https://twitter.com/Envido3) 🤩
