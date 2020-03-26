@@ -58,7 +58,7 @@ We can write these in p5
 Generates this figure
 
 
-{{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-example1.png" alt="test 1" position="center" style="max-width:400px; padding-bottom:1rem" >}}
+{{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-example1.png" alt="test 1" position="center" style="max-width:75vw; padding-bottom:1rem" >}}
 
 * *amp* is variable that amplifies the drawing, otherwise we could only see something that looks like a single point.
 * With *i* I define the distance between the points, so in the loop I go from 0 to TWO_PI plus the interval between points
@@ -80,7 +80,7 @@ Inside *Beginshape* we can add lines that point to the center
 ```
 That generates
 
-{{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-example2.png" alt="test 1" position="center" style="max-width:400px" >}}
+{{< image src="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton-example2.png" alt="test 1" position="center" style="max-width:75vw" >}}
 
 You can play a lot changing a, b and c, and because the sinodal behavior, it's kind of difficult to predict the final shape; with every test I was surprised by the final shapes! ✨
 
