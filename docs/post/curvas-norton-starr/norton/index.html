@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Norton curves in p5.js :: NOTÆS — My random blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="In a previous proyect, I was playing with Maurer roses, and while searching for info in Wolfram MathWorld, saw in the recomended section another cool figure, but there&amp;rsquo;s no equations.
+Googling Starr Rose, I couldn&amp;rsquo;t find as much info as Maurer roses, only as an exercise to draw in calculus and geometry books.
+Equations Let a, b, c
+$$ 0 \leq t \leq 2\pi$$
+$$x=(2&#43; \frac{1}{2} \sin at) \cos ( t &#43; \frac {\sin bt}{c})$$" />
+<meta name="keywords" content="p5, Norton Starr, processing, creations" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://natali-pp.github.io/blog/post/curvas-norton-starr/norton/" />
+
+
+
+
+<link rel="stylesheet" href="https://natali-pp.github.io/blog/assets/style.css">
+
+  <link rel="stylesheet" href="https://natali-pp.github.io/blog/assets/pink.css">
+
+
+
+<link rel="stylesheet" href="https://natali-pp.github.io/blog/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://natali-pp.github.io/blog/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="https://natali-pp.github.io/blog/img/favicon/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  <meta name="twitter:site" content="Envido3" />
+
+<meta name="twitter:creator" content="Envido3" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Norton curves in p5.js :: NOTÆS">
+<meta property="og:description" content="In a previous proyect, I was playing with Maurer roses, and while searching for info in Wolfram MathWorld, saw in the recomended section another cool figure, but there&amp;rsquo;s no equations.
+Googling Starr Rose, I couldn&amp;rsquo;t find as much info as Maurer roses, only as an exercise to draw in calculus and geometry books.
+Equations Let a, b, c
+$$ 0 \leq t \leq 2\pi$$
+$$x=(2&#43; \frac{1}{2} \sin at) \cos ( t &#43; \frac {\sin bt}{c})$$" />
+<meta property="og:url" content="https://natali-pp.github.io/blog/post/curvas-norton-starr/norton/" />
+<meta property="og:site_name" content="Norton curves in p5.js" />
+<meta property="og:image" content="https://natali-pp.github.io/blog/img/curvas-norton-starr/norton.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-03-26 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+            fontCache: 'global'
+        }
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+    
+
+</head>
+<body class="">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    NOTÆS
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/blog/about">About</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/Envido3">Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/Natali-PP">Github</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/suculent.mula/">Instagram</a></li>
+        
+      
+      
+    
+
+    
+    <div class="spacer"></div>
+    <ul class="language-selector">
+      <ul class="language-selector-current">
+          <li>English ▾</li>
+      </ul>
+      <ul class="language-selector__more hidden">
+        
+        <li><a href="https://natali-pp.github.io/blog/">English</a></li>
+        
+        <li><a href="https://natali-pp.github.io/blog/es/">Español</a></li>
+        
+      </ul>
+    </ul>
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/blog/about">About</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/Envido3">Twitter</a></li>
+      
+    
+      
+        <li><a href="https://github.com/Natali-PP">Github</a></li>
+      
+    
+      
+        <li><a href="https://www.instagram.com/suculent.mula/">Instagram</a></li>
+      
+    
+    
+    <hr />
+        
+          <li>
+            <a href="https://natali-pp.github.io/blog/">English</a>
+          </li>
+        
+          <li>
+            <a href="https://natali-pp.github.io/blog/es/">Español</a>
+          </li>
+        
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://natali-pp.github.io/blog/post/curvas-norton-starr/norton/">Norton curves in p5.js</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2020-03-26
+    </span>
+    
+    
+    <span class="post-author">::
+      Natalí
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="https://natali-pp.github.io/blog/tags/p5/">p5</a>&nbsp;
+    
+    #<a href="https://natali-pp.github.io/blog/tags/processing/">processing</a>&nbsp;
+    
+    #<a href="https://natali-pp.github.io/blog/tags/norton-starr/">Norton Starr</a>&nbsp;
+    
+    #<a href="https://natali-pp.github.io/blog/tags/creative-coding/">creative coding</a>&nbsp;
+    
+    #<a href="https://natali-pp.github.io/blog/tags/geometria/">geometria</a>&nbsp;
+    
+    #<a href="https://natali-pp.github.io/blog/tags/creations/">creations</a>&nbsp;
+    
+    #<a href="https://natali-pp.github.io/blog/tags/javascript/">javascript</a>&nbsp;
+    
+  </span>
+  
+
+
+
+  <div class="post-content"><div>
+        <p>In a previous proyect, I was playing with Maurer roses, and while searching for info in Wolfram MathWorld, saw in the recomended section <a href="https://mathworld.wolfram.com/StarrRose.html">another cool figure</a>, but there&rsquo;s no equations.</p>
+<!-- raw HTML omitted -->
+<p>Googling Starr Rose, I couldn&rsquo;t find as much info as Maurer roses, only as an exercise to draw in calculus and geometry books.</p>
+<h2 id="equations">Equations<a href="#equations" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><em>Let a, b, c</em></p>
+<p>$$ 0 \leq t \leq 2\pi$$</p>
+<p>$$x=(2+ \frac{1}{2} \sin at) \cos ( t + \frac {\sin bt}{c})$$</p>
+<p>$$y=(2+ \frac{1}{2} \sin at) \sin ( t + \frac {\sin bt}{c})$$</p>
+<p>So these are <a href="https://en.wikipedia.org/wiki/Polar_coordinate_system">polar coordinates</a>!!! The radius and angle would be</p>
+<p>$$ r = 2 + \frac{1}{2} \sin at$$
+$$ \theta = t + \frac{\sin bt}{c} $$</p>
+<p>We can write these in p5</p>
+<h2 id="p5js-code">p5.js code<a href="#p5js-code" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">  <span style="color:#75715e">// sketch.js inside function(draw)
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">9</span>
+  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>
+  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>
+  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">amp</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">120</span>
+  <span style="color:#a6e22e">beginShape</span>()
+  <span style="color:#a6e22e">strokeWeight</span>(<span style="color:#ae81ff">2</span>);
+  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;=</span> <span style="color:#a6e22e">TWO_PI</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.001</span>  ; <span style="color:#a6e22e">i</span><span style="color:#f92672">+=</span><span style="color:#ae81ff">0.001</span>) {
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">theta</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> (<span style="color:#a6e22e">sin</span>(<span style="color:#a6e22e">b</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">i</span>) <span style="color:#f92672">/</span> <span style="color:#a6e22e">c</span>)
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">r</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">amp</span> <span style="color:#f92672">*</span> ( <span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.5</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">sin</span>( <span style="color:#a6e22e">a</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">i</span>))
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">x</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">cos</span>(<span style="color:#a6e22e">theta</span>);
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">y</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">sin</span>(<span style="color:#a6e22e">theta</span>);
+    <span style="color:#a6e22e">vertex</span>(<span style="color:#a6e22e">x</span>,<span style="color:#a6e22e">y</span>)  
+  }
+  <span style="color:#a6e22e">endShape</span>();
+</code></pre></div><p>Generates this figure</p>
+
+  <img src="/img/curvas-norton-starr/norton-example1.png"  alt="test 1"  class="center"  style="max-width:400px; padding-bottom:1rem"  />
+
+
+<ul>
+<li><em>amp</em> is variable that amplifies the drawing, otherwise we could only see something that looks like a single point.</li>
+<li>With <em>i</em> I define the distance between the points, so in the loop I go from 0 to TWO_PI plus the interval between points</li>
+</ul>
+<p>I don know about you, but this shape already makes my <strong>gears activate</strong> 🤖</p>
+<p>Inside <em>Beginshape</em> we can add lines that point to the center</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">  <span style="color:#75715e">// sketch.js dentro de function(draw)
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;=</span> <span style="color:#a6e22e">TWO_PI</span> ; <span style="color:#a6e22e">i</span><span style="color:#f92672">+=</span><span style="color:#ae81ff">0.009</span>) {
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">theta</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> (<span style="color:#a6e22e">sin</span>(<span style="color:#a6e22e">b</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">i</span>) <span style="color:#f92672">/</span> <span style="color:#a6e22e">c</span>)
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">r</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">amp</span> <span style="color:#f92672">*</span> ( <span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.5</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">sin</span>( <span style="color:#a6e22e">a</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">i</span>))
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">x</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">cos</span>(<span style="color:#a6e22e">theta</span>);
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">y</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">sin</span>(<span style="color:#a6e22e">theta</span>);
+    <span style="color:#a6e22e">vertex</span>(<span style="color:#a6e22e">x</span>,<span style="color:#a6e22e">y</span>)
+    <span style="color:#a6e22e">line</span>(<span style="color:#a6e22e">x</span><span style="color:#f92672">*</span><span style="color:#ae81ff">0.2</span>, <span style="color:#a6e22e">y</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.2</span>, <span style="color:#a6e22e">x</span>, <span style="color:#a6e22e">y</span>) 
+  }
+</code></pre></div><p>That generates</p>
+
+  <img src="/img/curvas-norton-starr/norton-example2.png"  alt="test 1"  class="center"  style="max-width:400px"  />
+
+
+<p>You can play a lot changing a, b and c, and because the sinodal behavior, it&rsquo;s kind of difficult to predict the final shape; with every test I was surprised by the final shapes! ✨</p>
+<p>
+  <img src="/img/curvas-norton-starr/norton-ex4.png"  class="left"  style="max-width:250px; display:inline-block; padding:1rem"  />
+
+
+
+  <img src="/img/curvas-norton-starr/norton-ex3.png"  class="left"  style="max-width:250px; display:inline-block ; padding:1rem"  />
+
+
+
+  <img src="/img/curvas-norton-starr/norton-ex5.png"  class="left"  style="max-width:250px; display:inline-block ; padding:1rem"  />
+
+
+
+  <img src="/img/curvas-norton-starr/norton-ex6.png"  class="left"  style="max-width:250px; display:inline-block ; padding:1rem"  />
+
+
+
+  <img src="/img/curvas-norton-starr/norton-ex7.png"  class="left"  style="max-width:250px; display:inline-block ; padding:1rem"  />
+
+
+
+  <img src="/img/curvas-norton-starr/norton-ex8.png"  class="left"  style="max-width:250px; display:inline-block ; padding:1rem"  />
+
+</p>
+<p>I hope you play with the code, if you created something cute and / or bizarre <a href="https://twitter.com/Envido3">I want to see it!</a> 🤩</p>
+
+      </div></div>
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://natali-pp.github.io/blog/assets/main.js"></script>
+<script src="https://natali-pp.github.io/blog/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
