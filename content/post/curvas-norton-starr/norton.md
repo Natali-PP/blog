@@ -57,7 +57,8 @@ We can write these in p5
 
 Generates this figure
 
-{{< image src="/img/curvas-norton-starr/norton-example1.png" alt="test 1" position="center" style="max-width:400px; padding-bottom:1rem" >}}
+
+{{< image src="img/curvas-norton-starr/norton-example1.png" alt="test 1" position="center" style="max-width:400px; padding-bottom:1rem" >}}
 
 * *amp* is variable that amplifies the drawing, otherwise we could only see something that looks like a single point.
 * With *i* I define the distance between the points, so in the loop I go from 0 to TWO_PI plus the interval between points
